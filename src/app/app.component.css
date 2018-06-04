@@ -1,0 +1,19 @@
+.nav{
+    height: 10vh;
+    width: 100vw;
+    background-color: gray;
+}
+.side{
+    width: 30vw;
+    height: 90vh;
+    background-color: black;
+    position: absolute;
+    float: left;
+}
+.map{
+    width: 70vw;
+    height: 90vh;
+    background-color: green;
+    position: relative;
+    float: right;
+}
