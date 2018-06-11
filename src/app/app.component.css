@@ -6,7 +6,7 @@
 .side{
     width: 30vw;
     height: 90vh;
-    background-color: black;
+    background-color: cyan;
     position: absolute;
     float: left;
 }
