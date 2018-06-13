@@ -40,6 +40,11 @@ export class MapViewerComponent implements OnInit {
       popupAnchor:  [-3, -76] // point from which the popup should open relative to the iconAnchor
   });
   leaflet.marker([30.39, 31.39], {icon: customIcon}).addTo(this.Map);
+  // add marker on click event
+  this.Map.on('click', (e) => {
+    // alert(e.latlng.lat + ', ' + e.latlng.lng);
+    leaflet.marker([e.latlng.lat, e.latlng.lng]).addTo(this.Map);
+  } );
   }
 
 }
